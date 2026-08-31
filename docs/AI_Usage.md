@@ -2,7 +2,7 @@
 
 **Task Context:**
 
-The assessment required at least 50--100 additional payment records and
+The assessment required at least 50-100 additional payment records and
 additional rental records. The
 
 The original database only contained a small number of records.
@@ -176,7 +176,7 @@ MongoDB
 
 based on my retail database scenario.\"
 
-How the output was modified:
+**How the output was modified:**
 
 I used the suggested document structure as a starting point and adapted
 the customer and product information to my own dataset.
@@ -202,19 +202,22 @@ The assessment required two aggregation analyses:
 
 ChatGPT
 
-Example prompt:
+**Example prompt:**
 
 \"Explain step by step how to calculate total quantity ordered per
 product using MongoDB
 
 aggregation with embedded orders and items.\"
 
+\"Explain how to calculate average product price per category using a
+MongoDB
+
+aggregation pipeline.\"
+
 **How the output was modified:**
 
 The aggregation pipelines were adapted to the actual field names in my
 MongoDB documents.
-
-For total quantity per product, the pipeline uses with \$sum :
 
 **What I learnt:**
 
