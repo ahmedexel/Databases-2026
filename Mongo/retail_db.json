@@ -1,0 +1,76 @@
+[{
+  "_id": {
+    "$oid": "6a95691ca78cb688c149c5e9"
+  },
+  "customer_id": 1,
+  "first_name": "Alice",
+  "last_name": "Jackson",
+  "email": "alice.updated@example.com",
+  "orders": [
+    {
+      "order_id": 1,
+      "order_date": {
+        "$date": "2023-04-01T00:00:00.000Z"
+      },
+      "items": [
+        {
+          "product": "Iphone-15",
+          "category": "Electronics",
+          "quantity": 1,
+          "price": 900
+        },
+        {
+          "product": "Ferari",
+          "category": "Cars",
+          "quantity": 1,
+          "price": 25000
+        }
+      ]
+    },
+    {
+      "order_id": 3,
+      "order_date": {
+        "$date": "2023-04-10T00:00:00.000Z"
+      },
+      "items": [
+        {
+          "product": "Airpods",
+          "category": "Electronics",
+          "quantity": 1,
+          "price": 150
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a95691ca78cb688c149c5ea"
+  },
+  "customer_id": 2,
+  "first_name": "Bob",
+  "last_name": "Johnson",
+  "email": "bob.johnson@example.com",
+  "orders": [
+    {
+      "order_id": 2,
+      "order_date": {
+        "$date": "2023-04-02T00:00:00.000Z"
+      },
+      "items": [
+        {
+          "product": "Ipad-11",
+          "category": "Electronics",
+          "quantity": 1,
+          "price": 700
+        },
+        {
+          "product": "Tesla",
+          "category": "Cars",
+          "quantity": 1,
+          "price": 30000
+        }
+      ]
+    }
+  ]
+}]
